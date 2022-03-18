@@ -6,6 +6,7 @@ resources:
     type: github
     name: angr/ci-settings
     endpoint: angr
+    ref: refs/heads/py38
 
 stages:
 - template: resources/master.yml@ci-settings
